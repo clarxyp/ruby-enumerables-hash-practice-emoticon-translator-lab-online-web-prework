@@ -1,5 +1,6 @@
 # require modules here
 require "yaml"
+<<<<<<< HEAD
 require "pry"
 
 def load_library(file)
@@ -18,6 +19,13 @@ def load_library(file)
   
   new_hash
 end
+=======
+
+def load_library(emoticons)
+  # code goes here
+  emojis = YAML.load_file(emoticons)
+  new_hash =
+>>>>>>> 060e4befb6f7b56fa1c79667b18b0761bd2dc877
 
 def get_japanese_emoticon
   # code goes here
